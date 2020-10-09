@@ -17,12 +17,16 @@ div#header {
     background-color: rgb(153, 68, 40);
 }
 
+a {
+    color: #DE8C0C;
+    font-weight: bold;
+}
+
 a.nav {
     padding: 0.5rem;
     background-color: rgb(153, 68, 40);
     color: white;
     text-decoration: none;
-    font-weight: 600;
     font-size: xx-large;
     display: contents;
 }
