@@ -10,9 +10,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
-      - name: Push to Gandi Remote
-        run: git push gandi
 
       - name: Install SSH Key
         # You may pin to the exact commit or the version.
@@ -25,6 +22,12 @@ jobs:
           name: id_rsa
           # public keys of SSH servers
           known_hosts: ${{ secrets.KNOWN_HOSTS }}
+
+      - name: Add Gandi Remote
+        run: git remote add gandi git+ssh://25418@git.sd5.gpaas.net/tay4rva.com.git
+      
+      - name: Push to Gandi Remote
+        run: git push gandi
 
       - name: Deploy on Gandi
         run: ssh 25418@git.sd5.gpaas.net deploy tay4rva.com.git main
