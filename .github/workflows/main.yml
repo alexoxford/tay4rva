@@ -27,7 +27,7 @@ jobs:
         run: git remote add gandi git+ssh://25418@git.sd5.gpaas.net/tay4rva.com.git
       
       - name: Push to Gandi Remote
-        run: git push gandi
+        run: git push --force gandi
 
       - name: Deploy on Gandi
         run: ssh 25418@git.sd5.gpaas.net deploy tay4rva.com.git main
