@@ -14,6 +14,9 @@
     function setNavColor() {
         var topnav = document.getElementById("myTopnav")
         var path = window.location.href.split('/').slice(-1)[0];
+        if (path === "") {
+            path = "index.php"; // this handles the case where there is no path, i.e. https://tay4rva.com/
+        }
         Array.from(topnav.children).forEach(child => {
             if (child.className !== "icon") {
                 if (child.href.split('/').slice(-1)[0] === path) {
