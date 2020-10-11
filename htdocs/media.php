@@ -7,7 +7,7 @@
 
     <body>
         <div id="content">
-            <?php include './header.php' ?>
+            <?php include './header.html' ?>
 
             <div
                 style="box-sizing: border-box; width: 80%; padding: 22%; position: relative; margin: 0 auto; margin-top: 3rem; margin-bottom: 1rem;">

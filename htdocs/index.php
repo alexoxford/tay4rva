@@ -7,7 +7,7 @@
 
     <body>
         <div id="content">
-            <?php include './header.php' ?>
+            <?php include './header.html' ?>
 
             <h1>Write In Taylor Maloney For 5th District!</h1>
 

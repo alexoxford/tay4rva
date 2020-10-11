@@ -7,7 +7,7 @@
 
     <body>
         <div id="content">
-            <?php include './header.php' ?>
+            <?php include './header.html' ?>
 
             <h1>Taylor's Policies</h1>
 

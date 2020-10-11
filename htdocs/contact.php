@@ -54,7 +54,7 @@
 
     <body>
         <div id="content">
-            <?php include './header.php' ?>
+            <?php include './header.html' ?>
 
             <!-- START - We recommend to place the below code where you want the form in your website html  -->
             <div class="sib-form" style="text-align: center;">
