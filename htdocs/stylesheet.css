@@ -31,7 +31,7 @@ a.nav {
     color: white;
     text-decoration: none;
     font-size: xx-large;
-    display: contents;
+    display: inline-block;
 }
 
 a.nav:hover {
