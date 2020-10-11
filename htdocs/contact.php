@@ -1,9 +1,7 @@
 <html>
 
     <head>
-        <title>Write-In Taylor Maloney for RVA 5th District</title>
-        <link rel="stylesheet" href="./stylesheet.css">
-        <link rel="icon" type="image/png" href="./images/favicon.png">
+        <?php include './head-info.html'?>
 
         <!-- START - We recommend to place the below code in head tag of your website html  -->
         <style>
