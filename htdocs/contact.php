@@ -200,41 +200,37 @@
             </div>
             <!-- END - We recommend to place the below code where you want the form in your website html  -->
 
-            <div id="footer">
-                <hr>
-                <a href="www.twitter.com/tay4rva" class="nav-footer">Twitter</a>
-                <a href="www.instagram.com/rvacadre" class="nav-footer">Instagram</a>
+            <?php include './footer.html' ?>
 
-                <!-- START - We recommend to place the below code in footer or bottom of your website html  -->
-                <script>
-                window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+            <!-- START - We recommend to place the below code in footer or bottom of your website html  -->
+            <script>
+            window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
 
-                window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE =
-                    "The information provided is invalid. Please review the field format and try again.";
+            window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE =
+                "The information provided is invalid. Please review the field format and try again.";
 
-                window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+            window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
 
-                window.GENERIC_INVALID_MESSAGE =
-                    "The information provided is invalid. Please review the field format and try again.";
+            window.GENERIC_INVALID_MESSAGE =
+                "The information provided is invalid. Please review the field format and try again.";
 
 
 
 
-                window.translation = {
-                    common: {
-                        selectedList: '{quantity} list selected',
-                        selectedLists: '{quantity} lists selected'
-                    }
-                };
+            window.translation = {
+                common: {
+                    selectedList: '{quantity} list selected',
+                    selectedLists: '{quantity} lists selected'
+                }
+            };
 
-                var AUTOHIDE = Boolean(0);
-                </script>
-                <script src="https://sibforms.com/forms/end-form/build/main.js">
-                </script>
+            var AUTOHIDE = Boolean(0);
+            </script>
+            <script src="https://sibforms.com/forms/end-form/build/main.js">
+            </script>
 
 
-                <!-- END - We recommend to place the above code in footer or bottom of your website html  -->
-            </div>
+            <!-- END - We recommend to place the above code in footer or bottom of your website html  -->
         </div>
     </body>
 

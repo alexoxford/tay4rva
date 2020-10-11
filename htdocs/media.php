@@ -19,11 +19,7 @@
             </div>
             <p>Taylor participates in the Richmond Mayorathon 5th District Candidate Forum</p>
 
-            <div id="footer">
-                <hr>
-                <a href="www.twitter.com/tay4rva" class="nav-footer">Twitter</a>
-                <a href="www.instagram.com/rvacadre" class="nav-footer">Instagram</a>
-            </div>
+            <?php include './footer.html' ?>
         </div>
     </body>
 

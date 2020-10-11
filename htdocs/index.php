@@ -13,11 +13,7 @@
 
             <h2>Power to the People!</h2>
 
-            <div id="footer">
-                <hr>
-                <a href="www.twitter.com/tay4rva" class="nav-footer">Twitter</a>
-                <a href="www.instagram.com/rvacadre" class="nav-footer">Instagram</a>
-            </div>
+            <?php include './footer.html' ?>
         </div>
     </body>
 
