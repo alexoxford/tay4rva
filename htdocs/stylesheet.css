@@ -1,12 +1,15 @@
+body {
+    margin: 0;
+}
+
 div#content {
     width: 60%;
     margin: 0 auto;
     background-color: rgb(153, 68, 40);
-    border: rgb(130, 11, 5) solid 2px;
-    border-radius: 1.5rem;
     padding: 5px;
     color: white;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
 }
 
 div#header {
@@ -106,4 +109,10 @@ p {
     margin: 0 auto;
     font-size: larger;
     font-family: sans-serif;
+}
+
+@media only screen and (max-width:768px) {
+    div#content {
+        width: 95%;
+    }
 }
